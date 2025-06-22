@@ -1,0 +1,3 @@
+- What problem you decided to tackle
+- How you approached it
+- What’s working and what’s not
