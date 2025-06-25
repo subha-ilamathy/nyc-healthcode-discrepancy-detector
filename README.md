@@ -47,14 +47,6 @@ You aimed to:
 ### What’s Not (or Needs Improvement)
 
 - Parsing quality: Are clauses like `(a)`, `(1)`, `(i)` being properly segmented?
-- The vector index may lose fine-grained legal logic in long sections — check for semantically accurate matches.
-- CSV may need cleanup or balance check — ensure variety and clarity in violation samples.
 - Agent reasoning could be more explainable — verify the prompt encourages legal grounding in output.
 
 
-
-### Replication Steps
-
-virtualenv -p python3 test
-
-pip install -q --progress-bar off --no-warn-conflicts llama-index-core llama-index-readers-docling llama-index-node-parser-docling llama-index-embeddings-huggingface llama-index-llms-huggingface-api llama-index-readers-file python-dotenv
