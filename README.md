@@ -58,4 +58,37 @@ You aimed to:
 - Parsing quality: Are clauses like `(a)`, `(1)`, `(i)` being properly segmented?
 - Agent reasoning could be more explainable — verify the prompt encourages legal grounding in output.
 
+Eg: "Food contact surface not properly washed, rinsed and sanitized after each use and following any activity when contamination may have occurred."
 
+
+Dataset
+1. Violation, Citations, Assessment whether or not violation was clear 
+   - Semantic search using vectors (working for some)
+   - Insights to City
+   
+2. Aggregate all citations, to summarize the violation. (Agent)
+   - Violation 1 has 100 relevant healthcodes
+   - Summarize the 100 healthcodes, natural language that can give insight
+
+City as a User:
+   - Client health_code that has violations
+   - Index violations to search on that
+   - Query using the Health Code and retrieve what are all restaurants.
+   - Narrow down to rootcause with aspects, location, cuisines
+
+
+
+
+Violation Issues:
+- Food contact surface not properly washed - Section 81.4
+- Rinsed and sanitized after each use and following any activity - Section 81.6
+
+Root Cause:
+Food contact surface need
+
+- Retrieve relevant citations that reduces the search space 
+- Guidance tool, recommend best practices based on the updated health codes
+
+
+Inspector Violation Report
+Restaurants Approached - Document to explain?? 
