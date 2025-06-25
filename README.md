@@ -8,7 +8,7 @@
 
 2. cd nyc-healthcode-discrepancy-detector/
 
-3. source venv_11/bin/activate
+3. source venv_311/bin/activate
 
 
 ### What Problem You Decided to Tackle
