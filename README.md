@@ -2,6 +2,15 @@
 
 ---
 
+### Replication Steps
+
+1. Download and extract the Google drink
+
+2. cd nyc-healthcode-discrepancy-detector/
+
+3. source venv_11/bin/activate
+
+
 ### What Problem You Decided to Tackle
 
 You aimed to:
