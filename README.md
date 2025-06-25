@@ -4,7 +4,7 @@
 
 ### Replication Steps
 
-1. Download and extract the Google drink
+1. Download and extract the Google drive link https://drive.google.com/file/d/1ssi1dZp2eI10eT0KABL6kxlvFLmcs6pG/view?usp=sharing
 
 2. cd nyc-healthcode-discrepancy-detector/
 
